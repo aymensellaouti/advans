@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-first',
@@ -7,11 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstComponent implements OnInit {
   isHidden = false;
+  @Input() maVariable = 'oldValue';
+  @Output() sendDataToFather = new EventEmitter();
   constructor() { }
   ngOnInit() {
+    console.log(this.maVariable);
   }
   showHide(element) {
     console.log(element);
     this.isHidden = !this.isHidden;
+  }
+  outputData() {
+    this.sendDataToFather.emit(
+      'salut papa'
+    );
   }
 }

@@ -15,6 +15,11 @@
   class="form-control"
 >
 
+<p>Test css</p>
+
+<app-first [maVariable]="'fromDad'"></app-first>
+<app-first (sendDataToFather)="treatSonData($event)"></app-first>
+
 <button (click)="resetColor()" class="btn btn-success">
   Reset
 </button>

@@ -18,4 +18,8 @@ export class ColorComponent implements OnInit {
   resetColor() {
     this.color = this.defaultColor;
   }
+
+  treatSonData(message: string) {
+    alert(message);
+  }
 }
