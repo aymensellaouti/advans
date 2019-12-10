@@ -1,0 +1,23 @@
+<div [style.backgroundColor]="color" >
+  Bonjour
+</div>
+
+<input
+  type="color"
+  #colorInput
+  class="form-control"
+  (change)="changeColor(colorInput.value)"
+>
+
+<input
+  type="texte"
+  [(ngModel)]="color"
+  class="form-control"
+>
+
+<button (click)="resetColor()" class="btn btn-success">
+  Reset
+</button>
+
+<input type="text" [(ngModel)]="two" class="form-control">
+{{ two }}
