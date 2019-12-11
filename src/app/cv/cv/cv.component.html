@@ -1,8 +1,8 @@
 <div class="row">
   <div class="col-md-6">
-    <app-list></app-list>
+    <app-list (forwardPersonne)="selectPersonne($event)"></app-list>
   </div>
   <div class="col-md-6">
-    <app-detail></app-detail>
+    <app-detail [personne]="selectedPersonne"></app-detail>
   </div>
 </div>
