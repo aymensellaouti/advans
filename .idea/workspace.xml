@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23096b77-dd52-42b6-a71c-43493f32bfcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/directives/highlight.directive.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/highlight.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/mini-word/mini-word.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/mini-word/mini-word.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/mini-word/mini-word.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/mini-word/mini-word.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/ng-class/ng-class.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/ng-class/ng-class.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/ng-class/ng-class.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/ng-class/ng-class.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/ngstyle/ngstyle.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/ngstyle/ngstyle.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/ngstyle/ngstyle.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/ngstyle/ngstyle.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/rainbow.directive.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/directives/rainbow.directive.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cv/cv/cv.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/cv/cv.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cv/cv/cv.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/cv/cv.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cv/detail/detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/detail/detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cv/detail/detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/detail/detail.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cv/item/item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/item/item.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cv/item/item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/item/item.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cv/list/list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/list/list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cv/list/list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/list/list.component.ts" afterDir="false" />
     </list>
@@ -106,7 +121,7 @@
       <workItem from="1575967043851" duration="1169000" />
       <workItem from="1575968227888" duration="12436000" />
       <workItem from="1575986422934" duration="58000" />
-      <workItem from="1576051790228" duration="1306000" />
+      <workItem from="1576051790228" duration="13117000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1575968648492</created>
@@ -136,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575986457138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correction exercice component">
+      <created>1576053164145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576053164145</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,17 +169,18 @@
     <MESSAGE value="component" />
     <MESSAGE value="component communication" />
     <MESSAGE value="exercice component" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercice component" />
+    <MESSAGE value="Correction exercice component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction exercice component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1575982632572">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1576067294592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575982632572" />
-    <state x="23" y="0" key="CommitChangelistDialog2" timestamp="1575986456196">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576067294592" />
+    <state x="23" y="0" key="CommitChangelistDialog2" timestamp="1576053163223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="23" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575986456196" />
+    <state x="23" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576053163223" />
     <state x="264" y="39" key="RollbackChangesDialog" timestamp="1575978318600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -166,9 +189,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575968213302" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1575986459193">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1576053167230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575986459193" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576053167230" />
   </component>
 </project>
