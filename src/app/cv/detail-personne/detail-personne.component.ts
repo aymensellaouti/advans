@@ -19,12 +19,14 @@ export class DetailPersonneComponent implements OnInit {
   ngOnInit() {
     this.activatedRoute.params.subscribe(
       (mesParams) => {
-        const personne = this.cvService.findPersonneById(mesParams.id);
-        if (personne) {
+        this.cvService.findPersonneById(mesParams.id).subscribe(
+          (personne) => {
           this.personne = personne;
-        } else {
-          this.router.navigate(['']);
-        }
+        },
+          (erreur) => {
+            this.router.navigate(['']);
+          }
+          );
         /*
             Todo
             Create component
@@ -40,5 +42,13 @@ export class DetailPersonneComponent implements OnInit {
     //   }
     // );
   }
-
+  deletePersonne() {
+    this.cvService.deletePersonneById(this.personne.id).subscribe(
+      (data) => {
+        console.log(data);
+        this.router.navigate(['cv']);
+      },
+      (erreur) => console.log(erreur)
+    );
+  }
 }

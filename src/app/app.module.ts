@@ -29,6 +29,8 @@ import { LoginComponent } from './login/login.component';
 import { ObservableComponent } from './observable/observable.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HttpComponent } from './http/http.component';
+import { InterceptorComponent } from './interceptor/interceptor/interceptor.component';
+import {AuthentificationInterceptorProvider} from './interceptor/interceptor';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,8 @@ import { HttpComponent } from './http/http.component';
     NF404Component,
     LoginComponent,
     ObservableComponent,
-    HttpComponent
+    HttpComponent,
+    InterceptorComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +67,7 @@ import { HttpComponent } from './http/http.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [AuthentificationInterceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
