@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="23096b77-dd52-42b6-a71c-43493f32bfcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cv/detail/detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/detail/detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cv/detail/detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/detail/detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cv/item/item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/item/item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cv/list/list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/list/list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cv/list/list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/list/list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cv/services/cv.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cv/services/cv.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="E:/FormaAngular/forma211019" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -99,7 +107,11 @@
       <workItem from="1575967043851" duration="1169000" />
       <workItem from="1575968227888" duration="12436000" />
       <workItem from="1575986422934" duration="58000" />
-      <workItem from="1576051790228" duration="14153000" />
+      <workItem from="1576051790228" duration="14290000" />
+      <workItem from="1576076593983" duration="264000" />
+      <workItem from="1576077217431" duration="616000" />
+      <workItem from="1576143974179" duration="615000" />
+      <workItem from="1576223316158" duration="17291000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1575968648492</created>
@@ -143,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576069242706</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="servies ans dependency injection exercice">
+      <created>1576070176286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576070176286</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,17 +175,22 @@
     <MESSAGE value="exercice component" />
     <MESSAGE value="Correction exercice component" />
     <MESSAGE value="servies ans dependency injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="servies ans dependency injection" />
+    <MESSAGE value="servies ans dependency injection exercice" />
+    <option name="LAST_COMMIT_MESSAGE" value="servies ans dependency injection exercice" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1576067294592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576067294592" />
-    <state x="23" y="0" key="CommitChangelistDialog2" timestamp="1576069241800">
+    <state x="23" y="0" key="CommitChangelistDialog2" timestamp="1576070175502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="23" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576069241800" />
+    <state x="23" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576070175502" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1576077232550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576077232550" />
     <state x="264" y="39" key="RollbackChangesDialog" timestamp="1575978318600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -175,9 +199,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575968213302" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1576069244671">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1576070178009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576069244671" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576070178009" />
+    <state x="1976" y="120" key="run.anything.popup" timestamp="1576224935705">
+      <screen x="1920" y="0" width="800" height="560" />
+    </state>
+    <state x="1976" y="120" key="run.anything.popup/0.0.1536.824/1920.0.800.560@1920.0.800.560" timestamp="1576224935705" />
   </component>
 </project>

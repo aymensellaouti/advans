@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Personne} from '../Model/personne';
+import {Router} from '@angular/router';
+import {CvService} from '../services/cv.service';
 
 @Component({
   selector: 'app-detail',
@@ -9,9 +11,20 @@ import {Personne} from '../Model/personne';
 export class DetailComponent implements OnInit {
 
   @Input() personne: Personne;
-  constructor() { }
+  constructor(
+    private router: Router,
+    private cvService: CvService
+  ) { }
 
   ngOnInit() {
+    this.cvService.selectedItem.subscribe(
+      (personne) => {
+        this.personne = personne;
+      }
+    );
   }
 
+  goDetails() {
+    this.router.navigate(['cv', this.personne.id]);
+  }
 }

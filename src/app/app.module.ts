@@ -19,6 +19,16 @@ import { HighlightDirective } from './directives/highlight.directive';
 import { RainbowDirective } from './directives/rainbow.directive';
 import { DefaultImagePipe } from './pipes/default-image.pipe';
 import { TodoComponent } from './todo/todo.component';
+import { HeaderComponent } from './header/header.component';
+import { RouterSimulatorComponent } from './router-simulator/router-simulator.component';
+import { DetailPersonneComponent } from './cv/detail-personne/detail-personne.component';
+import { FrontComponent } from './front/front.component';
+import { BackComponent } from './back/back.component';
+import { NF404Component } from './nf404/nf404.component';
+import { LoginComponent } from './login/login.component';
+import { ObservableComponent } from './observable/observable.component';
+import {HttpClientModule} from '@angular/common/http';
+import { HttpComponent } from './http/http.component';
 
 @NgModule({
   declarations: [
@@ -37,12 +47,22 @@ import { TodoComponent } from './todo/todo.component';
     HighlightDirective,
     RainbowDirective,
     DefaultImagePipe,
-    TodoComponent
+    TodoComponent,
+    HeaderComponent,
+    RouterSimulatorComponent,
+    DetailPersonneComponent,
+    FrontComponent,
+    BackComponent,
+    NF404Component,
+    LoginComponent,
+    ObservableComponent,
+    HttpComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

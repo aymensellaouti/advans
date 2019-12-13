@@ -13,11 +13,18 @@ export class ListComponent implements OnInit {
   constructor(
     private cvService: CvService
   ) { }
-
   ngOnInit() {
-    this.personnes = this.cvService.getPersonnes();
+    // this.personnes = this.cvService.getPersonnes();
+    this.cvService.getPersonnes().subscribe(
+      (personnes) => {
+        this.personnes = personnes;
+      },
+      (erreur) => {
+        this.personnes = this.cvService.getFakePersonnes();
+        alert('Pbm with connexion, fake data diplayed');
+      }
+    );
   }
-
   getSelectedPersonne(personne: Personne) {
     this.forwardPersonne.emit(
       personne
