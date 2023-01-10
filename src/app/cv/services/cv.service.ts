@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {Personne} from '../Model/personne';
 import {Observable, Subject} from 'rxjs';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
-const API_LINK = 'https://immense-citadel-91115.herokuapp.com/api/personnes';
+const API_LINK = 'https://apilb.tridevs.net/explorer/api/personnes';
 @Injectable({
   providedIn: 'root'
 })
